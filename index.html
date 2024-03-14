@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./styles/output.css"/>
+
+    <title>Floripa Burguers SC</title>
+</head>
+<body>
+
+<!--Start Header-->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+    <div class="w-full h-full flex flex-col justify-center items-center">
+    <img src="./assets/hamb-1.png"
+    alt="Logo Burger"
+    class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+    />
+    <h1 class="text-4x1 mt-4 mb-2 font-bold text-white">Floripa Burgers</h1>
+    <span class="text-white font-medium">Av. Madre Benevenuta, Florianópolis - SC</span>
+
+    <div class="bg-green-500 px-4 py-1 rounded-lg mt-5" id="date-span">
+    <span class="text-white font-medium">Seg a Dom - 18:00 ás 22:00</span>
+    </div>
+
+    </div>
+    </header>
+<!--End Header-->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        Conheça nosso cardápio
+    </h2>
+
+<!--Start Menu-->
+    <div id="menu">
+
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+<!--Product-->
+    <div class="flex gap-2">
+    <img src="./assets/hamb-1.png" 
+    alt="Hamburger Smash"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+    >
+
+    <div>
+    <p class="font-bold">Hamburger Smash</p>
+    <p class="text-sm">Pão, Burger de 140g, Queijo Mussarela, Mayo, Tomate, Cebola e Alface Americana</p>
+
+    <div class="flex items-center gap-2 justify-between mt-3">
+        <p>R$ 18,90</p>
+    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name="Hamburger Smash" 
+        data-price="18.90">
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+
+    </div>
+
+    </div>
+<!--End Product-->
+<!--Product-->
+    <div class="flex gap-2">
+    <img src="./assets/hamb-2.png" 
+        alt="Hamburger Duplo"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+        >
+            
+    <div>
+    <p class="font-bold">Hamburger Duplo</p>
+    <p class="text-sm">Pão, 2 Burger de 140g, Queijo Mussarela, Mayo, Tomate, Cebola e Alface Americana</p>
+            
+    <div class="flex items-center gap-2 justify-between mt-3">
+        <p>R$ 32,90</p>
+    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name="Hamburger Duplo" 
+        data-price="32.90">
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+            
+    </div>
+            
+    </div>
+<!--End Product-->
+
+<!--Product-->
+    <div class="flex gap-2">
+    <img src="./assets/hamb-3.png" 
+        alt="Hamburger Salad"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+    >
+            
+    <div>
+    <p class="font-bold">Hamburger Cheddar</p>
+    <p class="text-sm">Pão, 2 Burger de 140g, Queijo Mussarela, Cheddar, Cebola Cristalizada e Alface Americana</p>
+            
+    <div class="flex items-center gap-2 justify-between mt-3">
+        <p>R$ 35,90</p>
+    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name="Hamburger Cheddar"
+        data-price="35.90">
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+            
+    </div>
+            
+    </div>
+<!--End Product-->
+
+<!--Product-->
+    <div class="flex gap-2">
+    <img src="./assets/hamb-4.png" 
+        alt="Hamburger Da Casa"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+    >
+            
+    <div>
+    <p class="font-bold">Hamburger Da Casa</p>
+    <p class="text-sm">Pão, 2 Burger Frango de 140g, Queijo Mussarela, Mayo, Tomate, Cebola e Alface Americana</p>
+            
+    <div class="flex items-center gap-2 justify-between mt-3">
+        <p>R$ 29,90</p>
+    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+        data-name="Hamburger da Casa"
+        data-price="29.90">
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+            
+    </div>
+            
+    </div>
+    <!--End Product-->
+    </main>
+
+    <div class="mx-auto max-w-7xl px-2 my-2">
+        <h2 class="font-bold text-3xl">Bebidas</h2>
+    </div>
+    
+<!--start Grid Bebidas-->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+<!--Product-->
+    <div class="flex gap-2 w-full">
+    <img src="./assets/refri-1.png"
+    alt="Coca Lata"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+    >
+    <div class="w-full">
+    <p class="font-bold">Coca Lata</p>
+    <p class="text-sm">Coca Cola Lata 350 Ml</p>
+    <div class="flex items-center gap-2 justify-between mt-3">
+    <p>R$ 7,90</p>
+    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name="Coca Lata"
+    data-price="7.90">
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+                    
+    </div>
+                    
+    </div>
+<!--End Product-->
+<!--Product-->
+<div class="flex gap-2 w-full">
+    <img src="./assets/refri-2.png"
+    alt="Guarana Lata"
+    class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+    >
+    <div class="w-full">
+    <p class="font-bold">Guarana Lata</p>
+    <p class="text-sm">Guarana Lata 350 Ml</p>
+    <div class="flex items-center gap-2 justify-between mt-3">
+    <p>R$ 5,90</p>
+    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+    data-name="Guarana Lata"
+    data-price="5.90">
+    <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+    </div>
+                    
+    </div>
+                    
+    </div>
+<!--End Product-->
+    </div>
+<!--End Grid Bebidas-->
+    
+</div>
+<!--End Menu-->
+<!--Modal Card-->
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+    id="cart-modal"
+    >
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+
+        <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+        <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+        <p class="font-bold mt-4">Endereço de Entrega</p>
+
+        <input type="text"
+        placeholder="Digite Seu Endereço"
+        id="address"
+        class="w-full border-2 p-1 rounded my-1"
+        >
+        <p class="text-red-500 hidden" id="address-warn">Digite Seu Endereço Completo</p>
+
+        <div class="flex items-center justify-between mt-5 w-full">
+        
+        <button id="close-modal-btn">Fechar</button>
+        <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+
+        </div>
+
+        </div>
+    </div>
+<!--End Modal Card-->
+<!--Button Card Footer-->
+<footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+    <button 
+    class="flex items-center gap-2 text-white font-bold"
+    id="cart-btn"
+    >
+        (<span id="cart-count">0</span>)
+        Ver Carrinho
+        <i class="fa fa-cart-plus text-lg text-white"></i>
+    </button>
+</footer>
+<!--End Button Footer-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="styles/script.js"></script>
+
+</body>
+</html>
